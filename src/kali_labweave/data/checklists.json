@@ -1,0 +1,34 @@
+[
+  {
+    "id": "scope-authorized",
+    "title": "Scope and authorization are recorded"
+  },
+  {
+    "id": "environment-noted",
+    "title": "Local lab environment details are noted"
+  },
+  {
+    "id": "non-invasive-observations",
+    "title": "Initial non-invasive observations are documented"
+  },
+  {
+    "id": "commands-explained",
+    "title": "Important commands include reasons and results"
+  },
+  {
+    "id": "evidence-hashed",
+    "title": "Evidence files are copied and hashed"
+  },
+  {
+    "id": "findings-summarized",
+    "title": "Findings or lessons learned are summarized"
+  },
+  {
+    "id": "remediation-notes",
+    "title": "Remediation or next-step notes are written"
+  },
+  {
+    "id": "report-generated",
+    "title": "Markdown report is generated"
+  }
+]

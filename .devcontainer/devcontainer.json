@@ -1,0 +1,16 @@
+{
+  "name": "kali-labweave",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy"
+      ]
+    }
+  },
+  "postCreateCommand": "python3 -m venv .venv && . .venv/bin/activate && python -m pip install -e . && python -m unittest discover -s tests",
+  "remoteEnv": {
+    "PATH": "${containerWorkspaceFolder}/.venv/bin:${containerEnv:PATH}"
+  }
+}
